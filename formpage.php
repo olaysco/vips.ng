@@ -390,7 +390,7 @@ select.inputcontrol{
 					<p> Welcome to the future of savings! </p>
 					<?php if(isset($_GET['success'])){ ?><span class="success"><?php echo $_GET['success']; ?></span><?php } ?>
 					<?php if(isset($_GET['error'])){ ?><span class="error"><?php echo $_GET['error']; ?></span><?php } ?>
-                    <form role="form" method="post" id="reused_form" action="processor.php">
+                    <form role="form" method="post" id="" action="processor.php">
 						<input value="register" name="opetration_type"  type="hidden" />
                         <div class="row">
                             <div class="col-sm-12 form-group">
