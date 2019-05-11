@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once 'inc/database.inc.php';
-$operation_type = isset($_POST['opetration_type'])?$_POST['opetration_type']):'';
+$operation_type = isset($_POST['opetration_type'])?$_POST['opetration_type']:'';
 
 
 
